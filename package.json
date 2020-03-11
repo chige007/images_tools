@@ -1,0 +1,22 @@
+{
+  "name": "imagemin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compress": "node compress.js",
+    "webp": "node webp.js",
+    "lqip": "node lqip.js",
+    "sqip": "node sqip.js"
+  },
+  "author": "chenyc",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-webp": "^5.1.0",
+    "lqip": "^2.1.0",
+    "sqip": "^0.3.3"
+  }
+}
