@@ -1,9 +1,11 @@
 const sqip = require('sqip');
  
-const file = './sqip_input/' + 'bg.jpg';
+const dir = './sqip_input/';
+
+const file = 'bg.jpg';
 
 const result =  sqip({
-    filename: file,
+    filename: dir + file,
     numberOfPrimitives: 10
 });
 
